@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <Import Project="..\Common.props" />
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
