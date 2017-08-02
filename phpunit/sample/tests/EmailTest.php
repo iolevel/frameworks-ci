@@ -16,13 +16,12 @@ final class EmailTest extends TestCase
         );
     }
 
-    // TODO: Enable when the problem with interface catching is solved
-    // public function testCannotBeCreatedFromInvalidEmailAddress(): void
-    // {
-    //     $this->expectException(InvalidArgumentException::class);
+    public function testCannotBeCreatedFromInvalidEmailAddress(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
 
-    //     Email::fromString('invalid');
-    // }
+        Email::fromString('invalid');
+    }
 
     public function testCanBeUsedAsString(): void
     {
