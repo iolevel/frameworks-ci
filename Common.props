@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <!-- Default Peachpie version (if not specified) -->
-    <PeachpieVersion Condition=" '$(PeachpieVersion)' == '' ">0.9.0-*</PeachpieVersion>
+    <PeachpieVersion Condition=" '$(PeachpieVersion)' == '' ">0.9.9</PeachpieVersion>
   </PropertyGroup>
 
 </Project>
