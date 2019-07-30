@@ -3,7 +3,8 @@
 
   <PropertyGroup>
     <!-- Default Peachpie version (if not specified) -->
-    <PeachpieVersion Condition=" '$(PeachpieVersion)' == '' ">0.9.39</PeachpieVersion>
+    <PeachpieVersion Condition=" '$(PeachpieVersion)' == '' ">0.9.44</PeachpieVersion>
+    <NoWarn>PHP5011,PHP6002,PHP0125</NoWarn>
   </PropertyGroup>
 
 </Project>
